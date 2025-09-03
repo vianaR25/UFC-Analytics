@@ -1,4 +1,4 @@
-# Análise de Dados: Ranking Peso-por-Peso do UFC (2020-2024)
+# Análise de Dados: Ranking Peso-por-Peso do UFC (2020-2025)
 
 ## 1. Motivação
 
