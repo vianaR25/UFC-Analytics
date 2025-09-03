@@ -46,7 +46,7 @@ Siga os passos abaixo para rodar o dashboard interativo localmente.
 O desenvolvimento foi estruturado em quatro fases principais:
 
 #### Passo 1: Coleta de Dados Primários
-A base inicial foi um dataset do Kaggle contendo o histórico do ranking P4P masculino de 2020 a meados de 2024. Este dataset foi atualizado manualmente para incluir os rankings mais recentes, garantindo a análise até a data presente.
+A base inicial foi um dataset do Kaggle contendo o histórico do ranking P4P masculino de 2020 a meados de 2025. Este dataset foi atualizado manualmente para incluir os rankings mais recentes, garantindo a análise até a data presente.
 
 #### Passo 2: Web Scraping para Enriquecimento
 Para obter dados demográficos essenciais (nacionalidade, idade, altura, etc.), foi desenvolvido o script `scrape_hometowns.py`. O processo utilizou a biblioteca **`requests`** para gerenciar sessões e fazer as chamadas HTTP à página de atletas do UFC. A biblioteca **`BeautifulSoup4`** foi usada para parsear o conteúdo HTML de cada página, permitindo a extração precisa dos dados. O script também utiliza a biblioteca **`re`** para limpar e formatar os nomes dos lutadores na construção das URLs e **`tqdm`** para exibir uma barra de progresso durante a execução, uma boa prática para scripts de longa duração.
