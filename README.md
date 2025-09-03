@@ -17,25 +17,25 @@ Este projeto foi inspirado por um debate crescente no mundo do MMA sobre a domin
 Siga os passos abaixo para rodar o dashboard interativo localmente.
 
 1.  **Clone o repositório:**
-    ```bash
+    ```
     git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
     cd seu-repositorio
     ```
 
 2.  **Crie um ambiente virtual (recomendado):**
-    ```bash
+    ```
     python -m venv venv
     source venv/bin/activate  # No Windows: venv\Scripts\activate
     ```
 
 3.  **Instale as dependências:**
-    ```bash
+    ```
     pip install -r requirements.txt
     ```
     *(Nota: Certifique-se de criar um arquivo `requirements.txt` com o comando `pip freeze > requirements.txt`)*
 
 4.  **Execute o aplicativo Dash:**
-    ```bash
+    ```
     python app.py
     ```
 
